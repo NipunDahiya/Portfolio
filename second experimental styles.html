@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Up and Down Ripple Effect</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      width: 400px;
+      padding: 20px;
+    }
+    
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 15px;
+    }
+    
+    .ball-wrapper {
+      position: relative;
+      width: 100%;
+      padding-bottom: 100%;
+    }
+    
+    .ball {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 40px;
+      height: 40px;
+      background-color: #3498db;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    
+    input[type="radio"] {
+      display: none;
+    }
+    
+    /* Up-down animation for the clicked ball */
+    @keyframes upDown {
+      0% { transform: translate(-50%, -50%); }
+      25% { transform: translate(-50%, -80%); }
+      50% { transform: translate(-50%, -20%); }
+      75% { transform: translate(-50%, -60%); }
+      100% { transform: translate(-50%, -50%); }
+    }
+    
+    /* Up-down animation with delay for adjacent balls */
+    @keyframes upDownDelayed {
+      0% { transform: translate(-50%, -50%); }
+      25% { transform: translate(-50%, -70%); }
+      50% { transform: translate(-50%, -30%); }
+      75% { transform: translate(-50%, -60%); }
+      100% { transform: translate(-50%, -50%); }
+    }
+    
+    /* Apply animations to clicked ball */
+    input[type="radio"]:checked + label {
+      animation: upDown 0.7s ease-in-out;
+      background-color: #e74c3c;
+    }
+    
+    /* Auto-uncheck radio buttons */
+    @keyframes resetRadio {
+      to { opacity: 0; }
+    }
+    
+    input[type="radio"]:checked {
+      animation: resetRadio 0.01s forwards 0.8s;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Click any ball to see it bounce</h2>
+    <div class="grid-container">
+      <!-- Row 1 -->
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball1">
+        <label for="ball1" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball2">
+        <label for="ball2" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball3">
+        <label for="ball3" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball4">
+        <label for="ball4" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball5">
+        <label for="ball5" class="ball"></label>
+      </div>
+      
+      <!-- Row 2 -->
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball6">
+        <label for="ball6" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball7">
+        <label for="ball7" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball8">
+        <label for="ball8" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball9">
+        <label for="ball9" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball10">
+        <label for="ball10" class="ball"></label>
+      </div>
+      
+      <!-- Row 3 -->
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball11">
+        <label for="ball11" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball12">
+        <label for="ball12" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball13">
+        <label for="ball13" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball14">
+        <label for="ball14" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball15">
+        <label for="ball15" class="ball"></label>
+      </div>
+      
+      <!-- Row 4 -->
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball16">
+        <label for="ball16" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball17">
+        <label for="ball17" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball18">
+        <label for="ball18" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball19">
+        <label for="ball19" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball20">
+        <label for="ball20" class="ball"></label>
+      </div>
+      
+      <!-- Row 5 -->
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball21">
+        <label for="ball21" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball22">
+        <label for="ball22" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball23">
+        <label for="ball23" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball24">
+        <label for="ball24" class="ball"></label>
+      </div>
+      <div class="ball-wrapper">
+        <input type="radio" name="ball" id="ball25">
+        <label for="ball25" class="ball"></label>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

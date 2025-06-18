@@ -1,0 +1,2633 @@
+body{
+    background-color:#d8c6a8;
+    font-family:  __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
+    height:3800px;
+    width:1500px;
+    overflow-x: hidden;
+   
+}
+
+
+*::selection {
+  background-color: #2f8468;
+}
+
+header{
+    display: flex;
+    width:150px;
+
+}
+
+header #icons{
+    display: flex;
+    position: relative;
+    left:80px;
+    top:30px;
+}
+
+navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right:-900px;
+    top:25px;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+
+}
+
+header img{
+    height:25px;
+    width:25px;
+    position:relative;
+    top:0px;
+    filter: grayscale(100%) brightness(1.5) contrast(0.7) opacity(0.7);
+
+}
+
+header a{
+    margin:10px;
+    text-decoration: none;
+    color: #666464;
+}
+
+header i{
+    font-size:25px;
+    color: #777;
+}
+
+li{
+    font-size:20px;
+}
+
+#intro h1,#about h1{
+    
+    position: relative;
+    top:150px;
+    left:250px;
+    font-size:57px;
+    margin-top:0;
+    margin-bottom:15px;
+    padding:0;
+    z-index:1;
+}
+
+.typewriter{
+  white-space: nowrap; /* Keeps the content on a single line */  
+}
+
+h2{
+    position: relative;
+    top:150px;
+    left:250px;
+    font-size:29px;
+    margin-top:0;
+    padding:0;
+    font-weight: 1;
+    margin-bottom:15px;
+    z-index:1;
+
+}
+
+p{
+    height:210px;
+    width:45%;
+    position: relative;
+    top:150px;
+    left:250px;
+    font-size:22px;
+    font-weight:400px;
+    border-radius:20px;
+    background-color: rgba(0,0,0,0);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-top:15px;
+    padding-left:20px;
+    z-index:1;
+    letter-spacing: 1px;
+
+
+}
+
+p span{
+    display:block;
+    margin:15px 0px 15px 0px;
+
+}
+
+h2 span{
+    color:#04724d;
+    font-weight:700;
+    font-family:_IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_3;
+    line-height:24.2px;
+}
+
+h2 span::selection{
+  color:#d8c6a8;
+}
+
+#about{
+  
+}
+
+#intro{
+  height:900px;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(15, 20px);
+    grid-gap: 20px;
+    padding: 20px;
+
+  }
+  
+  .ball {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+
+  }
+  
+
+  .balldiag1{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown 0.7s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag2{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown2 0.7s ease-in-out;
+    animation-delay:0.15s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+
+  }
+
+
+  .balldiag3{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown3 0.7s ease-in-out;
+    animation-delay:0.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+
+  }
+
+  .balldiag4{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown4 0.7s ease-in-out;
+    animation-delay:0.35s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+
+  }
+
+
+  .balldiag5{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown5 0.7s ease-in-out;
+    animation-delay:0.45s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+
+  }
+
+
+  .balldiag6{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown6 0.7s ease-in-out;
+    animation-delay:0.55s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+
+  }
+
+
+  .balldiag7{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown7 0.7s ease-in-out;
+    animation-delay:0.65s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+  .balldiag8{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown8 0.7s ease-in-out;
+    animation-delay:0.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+  .balldiag9{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown9 0.7s ease-in-out;
+    animation-delay:0.85s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag10{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown10 0.7s ease-in-out;
+    animation-delay:0.95s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag11{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown11 0.7s ease-in-out;
+    animation-delay:1.05s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag12{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown12 0.7s ease-in-out;
+    animation-delay:1.15s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .balldiag13{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown13 0.7s ease-in-out;
+    animation-delay:1.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag14{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown14 0.7s ease-in-out;
+    animation-delay:1.35s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag15{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown15 0.7s ease-in-out;
+    animation-delay:1.45s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag16{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown16 0.7s ease-in-out;
+    animation-delay:1.55s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag17{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown17 0.7s ease-in-out;
+    animation-delay:1.65s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag18{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown18 0.7s ease-in-out;
+    animation-delay:1.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag19{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown19 0.7s ease-in-out;
+    animation-delay:1.85s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .balldiag20{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown20 0.7s ease-in-out;
+    animation-delay:1.95s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+
+  .balldiag21{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown21 0.7s ease-in-out;
+    animation-delay:2.05s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag22{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown22 0.7s ease-in-out;
+    animation-delay:2.15s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag23{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown23 0.7s ease-in-out;
+    animation-delay:2.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag24{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown24 0.7s ease-in-out;
+    animation-delay:2.35s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .balldiag25{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown25 0.7s ease-in-out;
+    animation-delay:2.45s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag26{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown26 0.7s ease-in-out;
+    animation-delay:2.55s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+
+  .balldiag27{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown27 0.7s ease-in-out;
+    animation-delay:2.65s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+
+  .balldiag28{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown28 0.7s ease-in-out;
+    animation-delay:2.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag29{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown29 0.7s ease-in-out;
+    animation-delay:2.85s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag30{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown30 0.7s ease-in-out;
+    animation-delay:2.95s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+
+  .balldiag31{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown31 0.7s ease-in-out;
+    animation-delay:3.05s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag32{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown32 0.7s ease-in-out;
+    animation-delay:3.15s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .balldiag33{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown33 0.7s ease-in-out;
+    animation-delay:3.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag34{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown34 0.7s ease-in-out;
+    animation-delay:3.35s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag35{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.45s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  input[type="radio"] {
+    display: none;
+  }
+
+
+  @keyframes example {
+    0%   {top:0px; right:0px; bottom:0px; left:0px;}
+    25%  {top:-20px; right:0px; bottom:0px; left:0px;}
+    50%  {top:-40px; right:0px; bottom:0px; left:0px;}
+    75%  {top:-20px; right:0px; bottom:0px; left:0px;}
+    100% {top:0px; right:0px; bottom:0px; left:0px;}}
+
+
+    @keyframes upDown {
+      0% { transform: translate(-50%, -50%);
+            filter: brightness(1);
+      }
+      50% { transform: translate(-50%, -280%);
+            filter: brightness(0.4);
+      
+      }
+      100% { transform: translate(-50%, -50%);
+            filter: brightness(1);
+      }
+    }
+
+
+    @keyframes upDown2 {
+      0% { transform: translate(-50%, -50%);
+          filter: brightness(1);
+      }
+      50% { transform: translate(-50%, -260%);
+            filter: brightness(0.4);
+      }
+      100% { transform: translate(-50%, -50%);
+              filter: brightness(1);
+      }
+    }
+
+    @keyframes upDown3 {
+      0% { transform: translate(-50%, -50%); 
+            filter: brightness(1);
+      
+      }
+      50% { transform: translate(-50%, -240%); filter: brightness(0.4);}
+      100% { transform: translate(-50%, -50%);filter: brightness(1); }
+    }
+
+    @keyframes upDown4 {
+      0% { transform: translate(-50%, -50%);filter: brightness(1); }
+      50% { transform: translate(-50%, -220%); filter: brightness(0.4);}
+      100% { transform: translate(-50%, -50%); filter: brightness(1);}
+    }
+    
+
+    @keyframes upDown5 {
+      0% { transform: translate(-50%, -50%);filter: brightness(1); }
+      50% { transform: translate(-50%, -200%); filter: brightness(0.4);}
+      100% { transform: translate(-50%, -50%); filter: brightness(1);}
+    }
+    
+
+    @keyframes upDown6 {
+      0% { transform: translate(-50%, -50%);filter: brightness(1); }
+      50% { transform: translate(-50%, -180%); filter: brightness(0.4);}
+      100% { transform: translate(-50%, -50%);filter: brightness(1); }
+    }
+
+
+    @keyframes upDown7 {
+      0% { transform: translate(-50%, -50%); filter: brightness(1);}
+      50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+      100% { transform: translate(-50%, -50%); filter: brightness(1);}
+    }
+
+    @keyframes upDown8 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown9 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown10 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+      @keyframes upDown11 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown12 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+      @keyframes upDown13 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown14 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown15 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown16 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown17 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown18 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown19 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown20 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown21 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown22 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown23 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown24 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown25 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown26 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+      @keyframes upDown27 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown28 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+      @keyframes upDown29 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown30 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown31 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown32 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown33 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown34 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+
+
+      @keyframes upDown35 {
+        0% { transform: translate(-50%, -50%); filter: brightness(1);}
+        50% { transform: translate(-50%, -160%); filter: brightness(0.4);}
+        100% { transform: translate(-50%, -50%); filter: brightness(1);}
+      }
+    
+    
+    
+    
+    /* Apply animations to clicked ball */
+    input[type="radio"]:checked+label{
+      animation: upDown 0.7s ease-in-out;
+    }
+
+
+    .grid{
+        top:120px;
+        left:780px;
+        position: absolute;
+        z-index:0;
+    }
+
+    #about{
+      position: relative;
+      top:-330px;
+    }
+
+    #about h1{
+        position:absolute;
+        top:300px;
+        max-width: 250px;
+        white-space: nowrap; /* Keeps the content on a single line */
+    }
+
+    .typewriter{
+      border-right: 3px solid #04724d;
+      width: 0;
+      border-color:transparent;
+      overflow: hidden;
+
+    }
+
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from,to 0%{ border-color: transparent; }
+      50% {border-color:#04724d;}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #firstinabout{
+      position: absolute;
+      top:370px;
+      left:250px;
+    }
+
+    
+  /* Green bar that slides across before text appears */
+ /* #firstinabout::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #06855a;
+      border-radius: 20px;
+      animation: slideBar 1.5s ease-in-out forwards;
+      z-index: 1;
+  }*/
+
+  /* Text content */
+ /* #firstinabout{
+      opacity: 0;
+      transform: translateY(10px);
+      padding: 15px;
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s;
+      z-index: 2;
+  }*/
+
+
+
+
+
+  #firstinabout::before {
+    content: '';
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #056041;
+    border-radius: 20px;
+    z-index: 1;
+    /* Initially, no animation */
+  }
+  
+  /* Text content */
+  #firstinabout {
+    opacity: 0;
+    transform: translateY(10px);
+    padding: 15px;
+    z-index: 2;
+    /* Initially, no animation */
+  }
+  
+  /* Apply animations when the 'animate-in' class is added */
+  #firstinabout.animate-in::before {
+    animation: slideBar 1.5s ease-in-out forwards;
+  }
+  
+  #firstinabout.animate-in {
+    animation: fadeInText 0.8s ease-out forwards;
+    animation-delay: 0.5s; /* Start after bar begins sliding */
+  }
+
+
+  #secondpinabout{
+    position:absolute;
+    top:630px;
+    height:450px;
+  }
+
+
+
+  #secondpinabout::before {
+    content: '';
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #056041;
+    border-radius: 20px;
+    z-index: 1;
+    /* Initially, no animation */
+  }
+  
+  /* Text content */
+  #secondpinabout {
+    opacity: 0;
+    transform: translateY(10px);
+    padding: 15px;
+    z-index: 2;
+    /* Initially, no animation */
+  }
+  
+  /* Apply animations when the 'animate-in' class is added */
+  #secondpinabout.animate-in::before {
+    animation: slideBar 1.5s ease-in-out forwards;
+  }
+  
+  #secondpinabout.animate-in {
+    animation: fadeInText 0.8s ease-out forwards;
+    animation-delay: 0.6s; /* Start after bar begins sliding */
+  }
+
+
+
+
+  #tobe{
+    position:absolute;
+    top:630px;
+    
+  }
+
+
+
+  #tobe::before {
+    content: '';
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #056041;
+    z-index: 1;
+    /* Initially, no animation */
+  }
+  
+  /* Text content */
+  #tobe {
+    opacity: 0;
+    transform: translateY(10px);
+    padding: 15px;
+    z-index: 2;
+    /* Initially, no animation */
+  }
+  
+  /* Apply animations when the 'animate-in' class is added */
+  #tobe.animate-in::before {
+    animation: slideBar 1.5s ease-in-out forwards;
+  }
+  
+  #tobe.animate-in {
+    animation: fadeInText 0.8s ease-out forwards;
+    animation-delay: 0.6s; /* Start after bar begins sliding */
+  }
+
+
+  #projectheading::before {
+    content: '';
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #056041;
+    z-index: 1;
+    /* Initially, no animation */
+  }
+  
+  /* Text content */
+  #projectheading {
+    opacity: 0;
+    transform: translateY(10px);
+    padding: 15px;
+    z-index: 2;
+    width:220px;
+    /* Initially, no animation */
+  }
+  
+  /* Apply animations when the 'animate-in' class is added */
+  #projectheading.animate-in::before {
+    animation: slideBar 1.5s ease-in-out forwards;
+  }
+  
+  #projectheading.animate-in {
+    animation: fadeInText 0.8s ease-out forwards;
+    animation-delay: 0.6s; /* Start after bar begins sliding */
+  }
+
+
+
+
+
+
+
+
+  
+
+  /* Animation for the green bar */
+  @keyframes slideBar {
+      0% {
+          left: -100%;
+      }
+      50% {
+          left: 0;
+          width:100%;
+      }
+      100% {
+          left: 100%;
+          width:0px;
+      }
+  }
+
+  /* Animation for the text */
+  @keyframes fadeInText {
+      0% {
+          opacity: 0;
+          transform: translateY(30px);
+      }
+      100% {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+
+
+
+
+
+
+
+
+
+    h1 span{
+        color:#04724d;
+        font-size:60px;
+        margin:2px;
+    }
+
+    #about hr {
+        border: 1px solid gray; /* Sets the line's color and thickness */
+        width: 49%; /* Sets the line's width */
+        margin: 10px auto; /* Centers the line and adds vertical spacing */
+        position: absolute;
+        top:330px;
+        left:520px;
+      }
+
+
+
+
+    #idk{
+      font-weight:bold;
+      font-size:27px;
+      margin-bottom:0px;
+    }
+
+    #idk1{
+      font-size:24px;
+      margin-top:0px;
+      left:25px;
+      position: relative;
+      font-weight:normal;
+
+    }
+
+    #idk3{
+      font-size:21px;
+      margin-top:0px;
+      margin-bottom:0px;
+      position: relative;
+      left:80px;
+      top:-10px;
+    }
+
+    #idk4{
+      font-size:18px;
+      margin-top:0px;
+      position: relative;
+      left:100px;
+      top:-25px;
+      margin-top:0px;
+      font-weight: bold;
+    }
+
+    #idk5{
+      font-size:24px;
+      margin-top:0px;
+      left:25px;
+      position: relative;
+      top:-40px;
+      font-weight:normal;
+    }
+
+
+    #idk6{
+      font-size:21px;
+      margin-top:0px;
+      position: relative;
+      left:80px;
+      top:-75px;
+      margin-top:0px;
+    }
+
+
+    #idk7{
+      font-size:18px;
+      margin-top:0px;
+      position: relative;
+      left:100px;
+      top:-80px;
+      margin-top:0px;
+      font-weight: bold;
+    }
+
+
+
+    #idk8{
+      font-size:24px;
+      margin-top:0px;
+      left:25px;
+      position: relative;
+      top:-70px;
+      font-weight:normal;
+    }
+
+
+    #idk9{
+      font-size:21px;
+      margin-top:0px;
+      position: relative;
+      left:80px;
+      top:-105px;
+      margin-top:0px;
+    }
+
+
+    #idk10{
+      font-size:18px;
+      margin-top:0px;
+      position: relative;
+      left:100px;
+      top:-110px;
+      margin-top:0px;
+      font-weight: bold;
+    }
+
+    #projects{
+      position: relative;
+      top:700px;
+      height:1500px;
+    }
+
+    #line1{
+      border: 1px solid gray; /* Sets the line's color and thickness */
+      width: 52%; /* Sets the line's width */
+      margin: 10px auto; /* Centers the line and adds vertical spacing */
+    }
+
+    #line1{
+      position: absolute;
+      top:180px;
+      left:250px;
+    }
+
+    #projects h1{
+
+      position: relative;
+      top:150px;
+      right:-1050px;
+      font-size:57px;
+      margin-top:0;
+      margin-bottom:15px;
+      padding:0;
+      z-index:1;
+    }
+
+
+    .grid2{
+      display: grid;
+      grid-template-columns: repeat(2, 250px);
+      column-gap:250px;
+      row-gap:50px;
+      padding: 40px;
+      position: relative;
+      top:150px;
+      left:250px;
+
+    }
+
+    .card1{
+      height:300px;
+      width: 450px;
+      background-color: #d1b88c;
+      border-radius: 5%;
+      position: relative;
+      overflow: hidden;
+
+    }
+
+    #project1{
+      height:500px;
+      width:450px;
+    }
+
+    .card2{
+      height:300px;
+      width: 450px;
+      background-color: #d1b88c;
+      border-radius: 5%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #project2{
+      height:500px;
+      width:450px;
+    }
+
+
+    .card3{
+      height:300px;
+      width: 450px;
+      background-color: #d1b88c;
+      border-radius: 5%;
+      position: relative;
+      overflow: hidden;
+
+    }
+
+    #project3{
+      height:500px;
+      width:450px;
+
+    }
+
+
+    .card4{
+      height:300px;
+      width: 450px;
+      background-color: #d1b88c;
+      border-radius: 5%;
+      position: relative;
+      overflow: hidden;
+
+    }
+
+    #project4{
+      height:500px;
+      width:450px;
+
+    }
+
+
+
+    #project1 img{
+      height:100%;
+      width:85%;
+      bottom:-20px;
+      position: relative;
+      top:60px;
+      left:30px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    #project2 img{
+      height:100%;
+      width:85%;
+      bottom:-20px;
+      position: relative;
+      top:60px;
+      left:40px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+
+    #project3 img{
+      height:100%;
+      width:85%;
+      bottom:-20px;
+      position: relative;
+      top:60px;
+      left:40px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+
+    #project4 img{
+      height:100%;
+      width:85%;
+      bottom:-20px;
+      position: relative;
+      top:60px;
+      left:40px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+
+    #projects img:hover {
+      transform: rotate(3deg) scale(1.05);
+      transition: transform 0.2s ease-in-out;
+    }
+
+
+ 
+
+
+
+
+
+    #project-animation-1::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #project-animation-1 {
+      opacity: 0;
+      transform: translateY(10px);
+      padding: 15px;
+      z-index: 2;
+      width:220px;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #project-animation-1.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #project-animation-1.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+    #project-animation-2::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+    }
+    
+    /* Text content */
+    #project-animation-2 {
+      opacity: 0;
+      transform: translateY(10px);
+      padding: 15px;
+      z-index: 2;
+      width:220px;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #project-animation-2.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #project-animation-2.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+
+    #project-animation-3::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+    }
+    
+    /* Text content */
+    #project-animation-3 {
+      opacity: 0;
+      transform: translateY(10px);
+      padding: 15px;
+      z-index: 2;
+      width:220px;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #project-animation-3.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #project-animation-3.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+    #project-animation-4::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+    }
+    
+    /* Text content */
+    #project-animation-4 {
+      opacity: 0;
+      transform: translateY(10px);
+      padding: 15px;
+      z-index: 2;
+      width:220px;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #project-animation-4.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #project-animation-4.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+  
+    #project-animation-1-2::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #project-animation-1-2{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #project-animation-1-2.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #project-animation-1-2.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+    #project-animation-2-2::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #project-animation-2-2{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #project-animation-2-2.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #project-animation-2-2.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+    #project-animation-3-2::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #project-animation-3-2{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #project-animation-3-2.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #project-animation-3-2.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+    #project-animation-4-2::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #project-animation-4-2{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #project-animation-4-2.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #project-animation-4-2.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+    #project1-text1::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #project1-text1{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #project1-text1.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #project1-text1.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+    #project2-text1::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #project2-text1{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #project2-text1.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #project2-text1.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+    #project3-text1::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #project3-text1{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #project3-text1.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #project3-text1.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+
+    #project4-text1::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #project4-text1{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #project4-text1.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #project4-text1.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+    #contact1::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #contact1{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #contact1.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #contact1.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+    #contact2::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #contact2{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #contact2.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #contact2.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+    #contact3::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #contact3{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #contact3.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #contact3.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+
+    #sidebar-heading::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #sidebar-heading{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #sidebar-heading.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #sidebar-heading.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+    #lang::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #lang{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #lang.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #lang.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+    #framework::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #framework{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #framework.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #framework.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+    #sidebarlang::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      height:100%;
+      width:100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #sidebarlang{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #sidebarlang.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #sidebarlang.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+
+    #sidebar-framework::before {
+      content: '';
+      position: absolute;
+      left: -100%;
+      top: 0;
+      height:100%;
+      width:100%;
+      background-color: #056041;
+      z-index: 1;
+      /* Initially, no animation */
+    }
+    
+    /* Text content */
+    #sidebar-framework{
+      opacity: 0;
+      transform: translateY(10px);
+      z-index: 2;
+      /* Initially, no animation */
+    }
+    
+    /* Apply animations when the 'animate-in' class is added */
+    #sidebar-framework.animate-in::before {
+      animation: slideBar 1.5s ease-in-out forwards;
+    }
+    
+    #sidebar-framework.animate-in {
+      animation: fadeInText 0.8s ease-out forwards;
+      animation-delay: 0.6s; /* Start after bar begins sliding */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    #sidebarlang{
+      height:70px;
+    }
+
+
+
+
+
+
+
+    #project1 h3{
+      position:absolute;
+      top:335px;
+      left:50px;
+      font-family: __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
+      font-size:22px;
+      height:30px;
+      margin-bottom:5px;
+      padding:0 0 0 0;
+      width:450px;
+    }
+
+
+
+    #project2 h3{
+      position:absolute;
+      top:335px;
+      left:550px;
+      font-family: __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
+      font-size:22px;
+      width:450px;
+      height:30px;
+      padding:0 0 0 0;
+    }
+
+
+    #project3 h3{
+      position:absolute;
+      top:885px;
+      left:50px;
+      font-family: __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
+      font-size:22px;
+      height:30px;
+      width:450px;
+      padding:0 0 0 0;
+    }
+
+
+    #project4 h3{
+      position:absolute;
+      top:885px;
+      left:550px;
+      font-family: __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
+      font-size:22px;
+      height:30px;
+      width:450px;
+      padding:0 0 0 0;
+
+    }
+
+
+    #line2{
+      border: 1px solid gray; /* Sets the line's color and thickness */
+      width: 118px; /* Sets the line's width */
+      margin: 10px auto;
+      position:relative;
+      top:-20px;
+      left:120px;
+    }
+
+    #line3{
+      position:relative;
+      top:-22px;
+      left:100px;
+      border: 1px solid gray; /* Sets the line's color and thickness */
+      width: 160px; /* Sets the line's width */
+      margin: 10px auto; /* Centers the line and adds vertical spacing */
+    }
+
+
+    #line4{
+      position:relative;
+      top:-22px;
+      left:85px;
+      border: 1px solid gray; /* Sets the line's color and thickness */
+      width: 180px; /* Sets the line's width */
+      margin: 10px auto; /* Centers the line and adds vertical spacing */
+    }
+
+
+    #line5{
+
+      position:relative;
+      top:-22px;
+      left:80px;
+      border: 1px solid gray; /* Sets the line's color and thickness */
+      width: 180px; /* Sets the line's width */
+      margin: 10px auto; /* Centers the line and adds vertical spacing */
+    }
+
+    
+    #end-line{
+      position: absolute;
+      top:1320px;
+      left:285px;
+
+      border: 1px solid  #d5b88d; /* Sets the line's color and thickness */
+      width: 960px; /* Sets the line's width */
+      margin: 10px auto; /* Centers the line and adds vertical spacing */
+      z-index:9;
+     
+    }
+    
+
+    #project-icon-1{
+      position:relative;
+      top:-45px;
+      left:415px;
+      color:black;
+    }
+
+
+    #project-icon-2{
+      position:relative;
+      top:-45px;
+      left:415px;
+      color:black;
+    }
+
+
+    #project-icon-3{
+      position:relative;
+      top:-45px;
+      left:415px;
+      color:black;
+    }
+
+    #project-icon-4{
+      position:relative;
+      top:-45px;
+      left:415px;
+      color:black;
+    }
+
+
+
+
+
+  /*  #projects i{
+      position:relative;
+      left:420px;
+      top:13px;
+      font-size: 25px;
+      color:black;
+    }*/
+
+    h4{
+      color:#04724d;
+      font-weight:100;
+      font-family: __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
+      margin-left:10px;
+      font-size:20px;
+      position:relative;
+      top:25px;
+      width:425px;
+      padding:0 0 0 0;
+    }
+
+
+    #project1 h5{
+      position:absolute;
+      top:390px;
+      left:55px;
+      font-size:22px;
+      color:black;
+      font-weight:300;
+      width: 400px;
+    }
+
+
+    #project2 h5{
+      position:absolute;
+      top:390px;
+      left:555px;
+      font-size:22px;
+      color:black;
+      font-weight:300;
+      width: 400px;
+    }
+
+    #project3 h5{
+      position:absolute;
+      top:940px;
+      left:55px;
+      font-size:22px;
+      color:black;
+      font-weight:300;
+      width: 400px;
+      z-index:12;
+    }
+
+    #project4 h5{
+      position:absolute;
+      top:940px;
+      left:555px;
+      font-size:22px;
+      color:black;
+      font-weight:300;
+      width: 400px;
+      z-index:12;
+    }
+
+ 
+    #contact h1{
+      position:relative;
+      left:520px;
+      top:800px;
+      font-size:100px;
+      letter-spacing: 4px;
+      width:450px;
+      height:100px;
+      display: flex;
+      justify-content:flex-end;
+
+    }
+
+    #contact span{
+      font-size:120px;
+      position: relative;
+      top:-20px;
+    }
+
+    h7{
+      position: relative;
+      top:725px;
+      left:430px;
+      color:rgb(59, 59, 59);
+      font-weight: 100;
+      font-family:__IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
+      font-size:18px;
+
+    }
+
+    h6{
+      font-weight:600;
+      position: relative;
+      top:690px;
+      left:590px;
+      font-size:20px;
+      font-family:__IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
+      width:350px;
+      text-align: center;
+
+    }
+
+
+    #sidebar{
+      height:700px;
+      width:430px;
+      position:absolute;
+      right:60px;
+      top:1020px;
+
+    }
+
+    h8{
+      font-weight:800;
+      font-family: __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
+      font-size:30px;
+      letter-spacing: 1px;
+      display: block;
+      margin-bottom:25px;
+
+    }
+
+    h9{
+      font-size:30px;
+      font-weight:800;
+      letter-spacing: 1px;
+      margin-top:10px;
+      margin-bottom:20px;
+      display: block;
+    }
+
+    h10{
+      border-radius:7px;
+      background-color: #d5b88d;
+      font-size:20px;
+      margin-left:10px;
+      margin-bottom:500px;
+      padding:5px 5px 5px 5px;
+      font-weight: 100;
+
+    }
+
+
+
+    #framework{
+      position: relative;
+      top:15px;
+      margin-bottom:35px;
+      margin-top:30px;
+      left:15px;
+      width:350px;
+
+    }
+
+
+    #sidebar-framework{
+      height:70px;
+    }
+
+
+    #sidebar-icon-1{
+      position: relative;
+      font-size:28px;
+      left:-7px;
+      top:1px;
+      color:#04724d;
+
+    }
+
+
+    #sidebar-icon-2{
+      position: relative;
+      font-size:28px;
+      color:#025e3f;
+      left:-5px;
+    }
+
+    #lang{
+      position: relative;
+      left:15px;
+      width:350px;
+
+    }
+
+    #matplotlib{
+      position: relative;
+      top:20px;
+    }
+
+    #scikit-learn{
+      position: relative;
+      top:20px;
+    }
+
+    #sfml{
+      position: relative;
+      top:20px;
+    }
+
+
+    #hmm{
+      position: relative;
+      top:20px;
+    }
+
+
