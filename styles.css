@@ -1,8 +1,8 @@
 body{
     background-color:#d8c6a8;
     font-family:  __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
-    height:3800px;
-    width:1500px;
+    height:100%;
+    width:100%;
     overflow-x: hidden;
    
 }
@@ -14,7 +14,7 @@ body{
 
 header{
     display: flex;
-    width:150px;
+    width:5%;
 
 }
 
