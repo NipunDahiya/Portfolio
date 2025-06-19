@@ -1,10 +1,20 @@
 body{
     background-color:#d8c6a8;
     font-family:  __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
-    height:100%;
+    height:3800px;
     width:100%;
     overflow-x: hidden;
    
+}
+
+@media (max-width: 768px) {
+  body{
+    background-color:#d8c6a8;
+    font-family:  __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
+    overflow-x: hidden;
+    height:100%;
+    width:100%;
+  }
 }
 
 
@@ -23,6 +33,15 @@ header #icons{
     position: relative;
     left:80px;
     top:30px;
+}
+
+@media (max-width:768px){
+  header #icons{
+    display: flex;
+    position: relative;
+    left:30px;
+    top:10px;
+}
 }
 
 navbar{
@@ -49,6 +68,22 @@ header img{
 
 }
 
+@media (max-width: 768px) {
+  header img{
+    height:13px;
+    width:13px;
+    top:0px;
+    position:relative;
+    filter: grayscale(100%) brightness(1.5) contrast(0.7) opacity(0.7);
+
+  header i{
+      font-size:5px;
+      color: #777;
+  }
+
+  }
+}
+
 header a{
     margin:10px;
     text-decoration: none;
@@ -59,6 +94,8 @@ header i{
     font-size:25px;
     color: #777;
 }
+
+
 
 li{
     font-size:20px;
@@ -75,6 +112,24 @@ li{
     padding:0;
     z-index:1;
 }
+
+
+@media (max-width: 768px) {
+  #intro h1,#about h1{
+    top:100px;
+    left:60px;
+    font-size:12px;
+    margin-top:0;
+    margin-bottom:8px;
+    padding:0;
+    z-index:1;
+  }
+}
+
+
+
+
+
 
 .typewriter{
   white-space: nowrap; /* Keeps the content on a single line */  
@@ -93,6 +148,23 @@ h2{
 
 }
 
+@media (max-width: 768px) {
+  h2{
+    position: relative;
+    top:90px;
+    left:60px;
+    font-size:7px;
+    margin-top:0;
+    padding:0;
+    font-weight: 1;
+    margin-bottom:15px;
+    z-index:1;
+  }
+}
+
+
+
+
 p{
     height:210px;
     width:45%;
@@ -109,8 +181,28 @@ p{
     padding-left:20px;
     z-index:1;
     letter-spacing: 1px;
+}
 
 
+
+@media (max-width:768px){
+  p{
+    height:120px;
+    width:40%;
+    position: relative;
+    top:75px;
+    left:40px;
+    font-size:7px;
+    font-weight:400px;
+    border-radius:20px;
+    background-color: rgba(0,0,0,0);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-top:15px;
+    padding-left:20px;
+    z-index:1;
+    letter-spacing: 1px;
+  }
 }
 
 p span{
@@ -130,10 +222,6 @@ h2 span::selection{
   color:#d8c6a8;
 }
 
-#about{
-  
-}
-
 #intro{
   height:900px;
 }
@@ -145,8 +233,16 @@ h2 span::selection{
     grid-template-columns: repeat(15, 20px);
     grid-gap: 20px;
     padding: 20px;
-
   }
+
+@media (max-width:768px){
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(15, 20px);
+    grid-gap: 10px;
+    padding: 10px;
+  }
+}
   
   .ball {
     width: 2px;
@@ -157,6 +253,22 @@ h2 span::selection{
     position: relative;
     overflow: hidden;
     transform: translate(-50%, -50%);
+
+  }
+
+  @media(max-width:768px){
+    .ball {
+      width: 1px;
+      height: 1px;
+      border-radius: 50%;
+      background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transform: translate(-50%, -50%);
+  
+    }
+
 
   }
   
@@ -790,6 +902,639 @@ h2 span::selection{
 
   }
 
+  @media(max-width:768px){
+    
+  .balldiag1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown 0.7s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown2 0.7s ease-in-out;
+    animation-delay:0.15s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+
+  }
+
+
+  .balldiag3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown3 0.7s ease-in-out;
+    animation-delay:0.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+
+  }
+
+  .balldiag4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown4 0.7s ease-in-out;
+    animation-delay:0.35s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+
+  }
+
+
+  .balldiag5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown5 0.7s ease-in-out;
+    animation-delay:0.45s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+
+  }
+
+
+  .balldiag6{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown6 0.7s ease-in-out;
+    animation-delay:0.55s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+
+  }
+
+
+  .balldiag7{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown7 0.7s ease-in-out;
+    animation-delay:0.65s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+  .balldiag8{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown8 0.7s ease-in-out;
+    animation-delay:0.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+  .balldiag9{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown9 0.7s ease-in-out;
+    animation-delay:0.85s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag10{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown10 0.7s ease-in-out;
+    animation-delay:0.95s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag11{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown11 0.7s ease-in-out;
+    animation-delay:1.05s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag12{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown12 0.7s ease-in-out;
+    animation-delay:1.15s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .balldiag13{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown13 0.7s ease-in-out;
+    animation-delay:1.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag14{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown14 0.7s ease-in-out;
+    animation-delay:1.35s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag15{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown15 0.7s ease-in-out;
+    animation-delay:1.45s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag16{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown16 0.7s ease-in-out;
+    animation-delay:1.55s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag17{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown17 0.7s ease-in-out;
+    animation-delay:1.65s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag18{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown18 0.7s ease-in-out;
+    animation-delay:1.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag19{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown19 0.7s ease-in-out;
+    animation-delay:1.85s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .balldiag20{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown20 0.7s ease-in-out;
+    animation-delay:1.95s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+
+  .balldiag21{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown21 0.7s ease-in-out;
+    animation-delay:2.05s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag22{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown22 0.7s ease-in-out;
+    animation-delay:2.15s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag23{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown23 0.7s ease-in-out;
+    animation-delay:2.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag24{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown24 0.7s ease-in-out;
+    animation-delay:2.35s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .balldiag25{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown25 0.7s ease-in-out;
+    animation-delay:2.45s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag26{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown26 0.7s ease-in-out;
+    animation-delay:2.55s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+
+  .balldiag27{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown27 0.7s ease-in-out;
+    animation-delay:2.65s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+
+  .balldiag28{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown28 0.7s ease-in-out;
+    animation-delay:2.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag29{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown29 0.7s ease-in-out;
+    animation-delay:2.85s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag30{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown30 0.7s ease-in-out;
+    animation-delay:2.95s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+
+  .balldiag31{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown31 0.7s ease-in-out;
+    animation-delay:3.05s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag32{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown32 0.7s ease-in-out;
+    animation-delay:3.15s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .balldiag33{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown33 0.7s ease-in-out;
+    animation-delay:3.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag34{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown34 0.7s ease-in-out;
+    animation-delay:3.35s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+
+  }
+
+
+  .balldiag35{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.45s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+  }
+
 
   input[type="radio"] {
     display: none;
@@ -1071,6 +1816,16 @@ h2 span::selection{
         left:780px;
         position: absolute;
         z-index:0;
+    }
+
+    @media (max-width:768px){
+      .grid{
+        top:120px;
+        left:205px;
+        position: absolute;
+        z-index:0;
+    }
+
     }
 
     #about{
