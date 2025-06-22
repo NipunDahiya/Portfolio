@@ -9,7 +9,6 @@ body{
 
 
 
-
 *::selection {
   background-color: #2f8468;
 }
@@ -126,6 +125,8 @@ li{
     margin-bottom:8px;
     padding:0;
     z-index:1;
+    width:100%;
+
   }
 
   li{
@@ -243,9 +244,12 @@ h2 span::selection{
     height:100%;
     width:100%;
   }
-  .main{
-    height:100%;
-    width:100%;
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -264,8 +268,12 @@ h2 span::selection{
     grid-template-columns: repeat(15, 20px);
     grid-gap: 20px;
     padding: 15px;
+    overflow:hidden;
+    width:100%;
+
   }
 }
+
   
   .ball {
     width: 2px;
