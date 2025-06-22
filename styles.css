@@ -7,15 +7,7 @@ body{
    
 }
 
-@media (max-width: 768px) {
-  body{
-    background-color:#d8c6a8;
-    font-family:  __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
-    overflow-x: hidden;
-    height:100%;
-    width:100%;
-  }
-}
+
 
 
 *::selection {
@@ -56,7 +48,7 @@ navbar{
       display: flex;
       justify-content: flex-end;
       position: relative;
-      left:100px;
+      left:50px;
       top:10px;
   }
 }
@@ -243,6 +235,21 @@ h2 span::selection{
 }
 
 
+@media (max-width: 768px) {
+  body{
+    background-color:#d8c6a8;
+    font-family:  __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
+    overflow-x: hidden;
+    height:100%;
+    width:100%;
+  }
+  .main{
+    height:100%;
+    width:100%;
+  }
+}
+
+
 
 .grid {
     display: grid;
@@ -256,8 +263,7 @@ h2 span::selection{
     display: grid;
     grid-template-columns: repeat(15, 20px);
     grid-gap: 20px;
-    padding: 20px;
-    margin-left:0;
+    padding: 15px;
   }
 }
   
