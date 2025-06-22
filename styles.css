@@ -48,7 +48,7 @@ navbar{
       display: flex;
       justify-content: flex-end;
       position: relative;
-      left:65px;
+      left:80px;
       top:10px;
   }
 }
