@@ -48,7 +48,7 @@ navbar{
   header #icons{
     display: flex;
     position: relative;
-    left:30px;
+    left:10px;
     top:10px;
   }
 
@@ -56,7 +56,7 @@ navbar{
       display: flex;
       justify-content: flex-end;
       position: relative;
-      left:150px;
+      left:100px;
       top:10px;
   }
 }
@@ -80,8 +80,8 @@ header img{
 
 @media (max-width: 768px) {
   header img{
-    height:13px;
-    width:13px;
+    height:10px;
+    width:10px;
     top:0px;
     position:relative;
     filter: grayscale(100%) brightness(1.5) contrast(0.7) opacity(0.7);
@@ -101,7 +101,7 @@ header i{
 
 @media(max-width:768px){
   header i{
-    font-size:13px;
+    font-size:10px;
     color: #777;
 }
 }
@@ -137,7 +137,7 @@ li{
   }
 
   li{
-    font-size:10px;
+    font-size:7px;
   }
 
 }
@@ -203,8 +203,8 @@ p{
 
 @media (max-width:768px){
   p{
-    height:170px;
-    width:200px;
+    height:140px;
+    width:230px;
     position: relative;
     top:75px;
     left:40px;
@@ -255,8 +255,9 @@ h2 span::selection{
   .grid {
     display: grid;
     grid-template-columns: repeat(15, 20px);
-    grid-gap: 14px;
-    padding: 14px;
+    grid-gap: 20px;
+    padding: 20px;
+    margin-left:0;
   }
 }
   
@@ -921,8 +922,8 @@ h2 span::selection{
   @media(max-width:768px){
     
   .balldiag1{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -938,8 +939,8 @@ h2 span::selection{
 
 
   .balldiag2{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -957,8 +958,8 @@ h2 span::selection{
 
 
   .balldiag3{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -975,8 +976,8 @@ h2 span::selection{
   }
 
   .balldiag4{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -994,8 +995,8 @@ h2 span::selection{
 
 
   .balldiag5{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1013,8 +1014,8 @@ h2 span::selection{
 
 
   .balldiag6{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1032,8 +1033,8 @@ h2 span::selection{
 
 
   .balldiag7{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1049,8 +1050,8 @@ h2 span::selection{
   }
 
   .balldiag8{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1066,8 +1067,8 @@ h2 span::selection{
   }
 
   .balldiag9{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1084,8 +1085,8 @@ h2 span::selection{
 
 
   .balldiag10{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1102,8 +1103,8 @@ h2 span::selection{
 
 
   .balldiag11{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1120,8 +1121,8 @@ h2 span::selection{
 
 
   .balldiag12{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1137,8 +1138,8 @@ h2 span::selection{
 
 
   .balldiag13{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1155,8 +1156,8 @@ h2 span::selection{
 
 
   .balldiag14{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1173,8 +1174,8 @@ h2 span::selection{
 
 
   .balldiag15{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1191,8 +1192,8 @@ h2 span::selection{
 
 
   .balldiag16{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1209,8 +1210,8 @@ h2 span::selection{
 
 
   .balldiag17{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1227,8 +1228,8 @@ h2 span::selection{
 
 
   .balldiag18{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1245,8 +1246,8 @@ h2 span::selection{
 
 
   .balldiag19{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1262,8 +1263,8 @@ h2 span::selection{
 
 
   .balldiag20{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1281,8 +1282,8 @@ h2 span::selection{
 
 
   .balldiag21{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1299,8 +1300,8 @@ h2 span::selection{
 
 
   .balldiag22{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1317,8 +1318,8 @@ h2 span::selection{
 
 
   .balldiag23{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1335,8 +1336,8 @@ h2 span::selection{
 
 
   .balldiag24{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1352,8 +1353,8 @@ h2 span::selection{
 
 
   .balldiag25{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1370,8 +1371,8 @@ h2 span::selection{
 
 
   .balldiag26{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1389,8 +1390,8 @@ h2 span::selection{
 
 
   .balldiag27{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1408,8 +1409,8 @@ h2 span::selection{
 
 
   .balldiag28{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1426,8 +1427,8 @@ h2 span::selection{
 
 
   .balldiag29{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1444,8 +1445,8 @@ h2 span::selection{
 
 
   .balldiag30{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1463,8 +1464,8 @@ h2 span::selection{
 
 
   .balldiag31{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1481,8 +1482,8 @@ h2 span::selection{
 
 
   .balldiag32{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1498,8 +1499,8 @@ h2 span::selection{
 
 
   .balldiag33{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1516,8 +1517,8 @@ h2 span::selection{
 
 
   .balldiag34{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1534,8 +1535,8 @@ h2 span::selection{
 
 
   .balldiag35{
-    width: 4px;
-    height: 4px;
+    width: 0px;
+    height: 0px;
     border-radius: 50%;
     background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
     cursor: pointer;
@@ -1549,7 +1550,1319 @@ h2 span::selection{
 
   }
 
+  .row0col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
   }
+
+  .row0col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:0.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+  .row0col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:0.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row0col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:0.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row0col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row0col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row1col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:0.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row1col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:0.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row1col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:0.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+  .row1col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row1col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row1col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row2col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:0.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row2col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:0.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row2col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row2col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row2col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row2col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row3col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:0.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row3col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row3col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row3col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row3col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row3col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row4col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row4col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row4col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row4col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row4col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row4col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row5col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+  .row5col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row5col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row5col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row5col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row5col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+  .row6col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+  .row6col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+  .row6col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row6col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row6col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row6col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row7col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:1.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row7col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row7col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row7col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row7col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row7col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row8col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+  .row8col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+  .row8col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+  .row8col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+  .row8col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row8col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row9col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row9col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row9col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row9col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row9col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row9col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+  .row10col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row10col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row10col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row10col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row10col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row10col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row11col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:2.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row11col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row11col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row11col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row11col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:4.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row11col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:4.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row12col0{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row12col1{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row12col2{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:3.75s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row12col3{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:4.0s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row12col4{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:4.25s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+
+  .row12col5{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(217, 202, 179) 35%, rgb(77, 77, 77)) 65%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    animation: upDown35 0.7s ease-in-out;
+    animation-delay:4.5s;
+    animation-iteration-count: infinite;
+    animation-duration:2.5s;
+
+  }
+
+}
 
 
   input[type="radio"] {
