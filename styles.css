@@ -3270,6 +3270,10 @@ h2 span::selection{
       z-index: 1;
       /* Initially, no animation */
     }
+    #firstinabout{
+      width:140px;
+      height:200px;
+    }
   
   }
   
@@ -4391,6 +4395,7 @@ h2 span::selection{
       #sidebar-heading{
         position:relative;
         left:200px;
+        top:-15px;
       }
     }
     
@@ -4848,7 +4853,7 @@ h2 span::selection{
 
     @media(max-width:768px){
       h9{
-        font-size:10px;
+        font-size:6px;
         font-weight:800;
         letter-spacing: 1px;
         margin-top:10px;
@@ -4919,9 +4924,9 @@ h2 span::selection{
     @media(max-width:768px){
       #sidebar-icon-1{
         position: relative;
-        font-size:15px;
-        left:-7px;
-        top:1px;
+        font-size:8px;
+        left:-5px;
+        top:0px;
         color:#04724d;
   
       }
@@ -4943,6 +4948,16 @@ h2 span::selection{
 
     }
 
+    @media(max-width:768px){
+      #lang{
+        position: relative;
+        left:205px;
+        width:350px;
+        top:-30px;
+  
+      }
+    }
+
     #matplotlib{
       position: relative;
       top:20px;
@@ -4962,6 +4977,14 @@ h2 span::selection{
     #hmm{
       position: relative;
       top:20px;
+    }
+
+    @media(max-width:768px){
+      #hten{
+        position: relative;
+        left:190px;
+        top:-50px;
+      }
     }
 
 
