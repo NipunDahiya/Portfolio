@@ -4981,16 +4981,6 @@ h2 span::selection{
         left:-1.1vw;
         top:0%;
       }
-
-
-      #framework{
-        position: absolute;
-        top:0%;
-        left:0%;
-        width:100%;
-  
-      }
-  
     }
 
     #lang{
@@ -5004,12 +4994,12 @@ h2 span::selection{
       #lang{
         position: absolute;
         left:1.1vw;
-        top:2vw;
+        top:12px;
         width:100%;
       }
       #framework{
         position: absolute;
-        top:15px;
+        top:6px;
         font-size:1vw;
         margin-bottom:35px;
         margin-top:30px;
@@ -5043,72 +5033,73 @@ h2 span::selection{
     @media(max-width:768px){
       .python{
         position:absolute;
-        top:4vw;
+        top:23px;
         left:0.5vw;
       }
 
       .c{
         position:absolute;
-        top:4vw;
+        top:23px;
         left:4.5vw
       }
 
       .cpp{
         position:absolute;
-        top:4vw;
+        top:23px;
         left:6.5vw
       }
 
       .html{
         position:absolute;
-        top:4vw;
+        top:23px;
         left:9.5vw;
       }
 
       #hmm{
         position:absolute;
-        top:4vw;
+        top:23px;
         left:15.5vw;
       }
+
       .sql{
         position:absolute;
-        top:4vw;
+        top:23px;
         left:21.5vw;
       }
 
       .tf{
         position:absolute;
-        top:9.5vw;
+        top:50px;
         left:0vw;
       }
 
       .pytorch{
         position:absolute;
-        top:9.5vw;
+        top:50px;
         left:6vw;
       }
 
       .keras{
         position:absolute;
-        top:9.5vw;
+        top:50px;
         left:11vw;
       }
       .numpy{
         position:absolute;
-        top:9.5vw;
+        top:50px;
         left:15vw;
       }
 
       #matplotlib{
         position:absolute;
-        top:9.5vw;
+        top:50px;
         left:20vw;
       }
       
 
       #scikit-learn{
         position:absolute;
-        top:11vw;
+        top:60px;
         left:0vw;
         width:4vw;
         font-size:5.15px;
@@ -5117,14 +5108,14 @@ h2 span::selection{
 
       #sfml{
         position:absolute;
-        top:9.5vw;
+        top:50px;
         left:25vw;
       }
 
       #sidebar-framework{
         position:absolute;
-        top:0vw;
-        left:0vw;
+        top:0px;
+        left:0px;
       }
       
     }
