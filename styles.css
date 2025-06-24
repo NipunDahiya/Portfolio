@@ -3171,7 +3171,7 @@ h2 span::selection{
     @media(max-width:768px){
       #about{
         position: absolute;
-        top:100%;
+        top:105%;
         left:0%;
       }
   
@@ -4877,7 +4877,7 @@ h2 span::selection{
         width:40vw;
         position:absolute;
         left:57vw;
-        top:104%;
+        top:109%;
         padding:0px;
         margin:0px;
         box-sizing: border-box;
