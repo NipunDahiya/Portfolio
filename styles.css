@@ -4898,7 +4898,7 @@ h2 span::selection{
       h9{
         font-size:2.5vw;
         font-weight:800;
-        color: black;
+        font-weight: bolder;
         display: block;
         margin:0px 0px 0px 0px;
         padding:0px 0px 0px 0px;
@@ -4921,7 +4921,7 @@ h2 span::selection{
         border-radius:7px;
         background-color: #d5b88d;
         font-size:2vw;
-        color: black;
+        font-weight: bolder;
         margin-left:0px;
         margin-bottom:0px;
         padding:0px 0px 0px 0px;
