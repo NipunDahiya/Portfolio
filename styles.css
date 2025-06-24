@@ -3343,8 +3343,8 @@ h2 span::selection{
     #secondpinabout{
       position:relative;
       top:250px;
-      width:65vw;
-      height:300px;
+      width:75vw;
+      height:35vw;
       left:20px;
     }
   
@@ -3409,8 +3409,8 @@ h2 span::selection{
 
   @media(max-width:768px){
     #tobe{
-      position:absolute;
-      top:60%;
+      position:relative;
+      top:-20%;
     }
   
   
