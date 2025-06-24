@@ -118,7 +118,7 @@ li{
 
 
 @media (max-width: 768px) {
-  #intro h1,#about h1{
+  #intro h1{
     top:100px;
     left:60px;
     font-size:15px;
@@ -3177,7 +3177,8 @@ h2 span::selection{
   
       #about h1{
           position:absolute;
-          top:-10%;
+          font-size:15px;
+          top:-18%;
           max-width: 50%;
           left:10%;
           white-space: nowrap; /* Keeps the content on a single line */
@@ -3742,8 +3743,8 @@ h2 span::selection{
         width: 49%; /* Sets the line's width */
         margin: 10px auto; /* Centers the line and adds vertical spacing */
         position: absolute;
-        top:-2%;
-        left:40%;
+        top:1%;
+        left:35%;
       }
     }
 
