@@ -9,6 +9,7 @@ body{
    
 }
 
+
 *::selection {
   background-color: #2f8468;
 }
@@ -4857,6 +4858,8 @@ h2 span::selection{
         letter-spacing: 0.5px;
         display: block;
         margin-bottom:25px;
+        border:1px solid red;
+
   
       }
 
@@ -4866,8 +4869,13 @@ h2 span::selection{
         width:30vw;
         position:absolute;
         left:55vw;
+        right:10vw;
         top:90%;
-  
+        padding:0px;
+        margin:0px;
+        box-sizing: border-box;
+        border:1px solid red;
+        
       }
     }
 
@@ -4878,15 +4886,13 @@ h2 span::selection{
       margin-top:10px;
       margin-bottom:20px;
       display: block;
+      border:1px solid red;
     }
 
     @media(max-width:768px){
       h9{
-        font-size:6px;
+        font-size:1vw;
         font-weight:800;
-        letter-spacing: 1px;
-        margin-top:10px;
-        margin-bottom:20px;
         display: block;
       }
     }
@@ -4899,6 +4905,7 @@ h2 span::selection{
       margin-bottom:500px;
       padding:5px 5px 5px 5px;
       font-weight: 100;
+      border:1px solid red;
 
     }
 
@@ -4906,11 +4913,9 @@ h2 span::selection{
       h10{
         border-radius:7px;
         background-color: #d5b88d;
-        font-size:5px;
-        margin-left:10px;
-        margin-bottom:500px;
-        padding:5px 5px 5px 5px;
+        font-size:1vw;
         font-weight: 100;
+        border:1px solid red;
   
       }
     }
@@ -4968,6 +4973,15 @@ h2 span::selection{
         left:0%;
         top:0%;
       }
+
+
+      #framework{
+        position: absolute;
+        top:0%;
+        left:0%;
+        width:100%;
+  
+      }
   
     }
 
@@ -4983,6 +4997,16 @@ h2 span::selection{
         position: absolute;
         left:0%;
         top:0%;
+        width:100%;
+      }
+      #framework{
+        position: absolute;
+        top:15px;
+        margin-bottom:35px;
+        margin-top:30px;
+        left:0%;
+        width:100%;
+  
       }
     }
 
