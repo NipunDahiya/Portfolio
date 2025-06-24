@@ -197,12 +197,12 @@ p{
 
 @media (max-width:768px){
   p{
-    height:140px;
+    height:25vw;
     width:230px;
     position: relative;
     top:75px;
     left:40px;
-    font-size:2.4vw;
+    font-size:2vw;
     font-weight:400px;
     border-radius:20px;
     background-color: rgba(0,0,0,0);
@@ -3734,6 +3734,15 @@ h2 span::selection{
         margin-top:0px;
         font-weight: bold;
       }
+
+      #about hr {
+        border: 0.5px solid gray; /* Sets the line's color and thickness */
+        width: 49%; /* Sets the line's width */
+        margin: 10px auto; /* Centers the line and adds vertical spacing */
+        position: absolute;
+        top:-2%;
+        left:40%;
+      }
     }
 
 
@@ -4858,23 +4867,20 @@ h2 span::selection{
         letter-spacing: 0.5px;
         display: block;
         margin-bottom:25px;
-        border:1px solid red;
 
   
       }
 
 
       #sidebar{
-        height:45%;
-        width:30vw;
+        height:70vw;
+        width:35vw;
         position:absolute;
-        left:55vw;
-        right:10vw;
-        top:90%;
+        left:47vw;
+        top:94%;
         padding:0px;
         margin:0px;
         box-sizing: border-box;
-        border:1px solid red;
         
       }
     }
@@ -4886,7 +4892,6 @@ h2 span::selection{
       margin-top:10px;
       margin-bottom:20px;
       display: block;
-      border:1px solid red;
     }
 
     @media(max-width:768px){
@@ -4894,6 +4899,8 @@ h2 span::selection{
         font-size:1vw;
         font-weight:800;
         display: block;
+        margin:0px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
       }
     }
 
@@ -4905,7 +4912,6 @@ h2 span::selection{
       margin-bottom:500px;
       padding:5px 5px 5px 5px;
       font-weight: 100;
-      border:1px solid red;
 
     }
 
@@ -4915,7 +4921,9 @@ h2 span::selection{
         background-color: #d5b88d;
         font-size:1vw;
         font-weight: 100;
-        border:1px solid red;
+        margin-left:0px;
+        margin-bottom:0px;
+        padding:0px 0px 0px 0px;
   
       }
     }
@@ -4958,9 +4966,9 @@ h2 span::selection{
     @media(max-width:768px){
       #sidebar-icon-1{
         position: absolute;
-        font-size:8px;
-        left:0%;
-        top:0%;
+        font-size:1vw;
+        left:-1vw;
+        top:0vw;
         color:#04724d;
   
       }
@@ -4968,9 +4976,9 @@ h2 span::selection{
   
       #sidebar-icon-2{
         position: absolute;
-        font-size:15px;
+        font-size:1vw;
         color:#025e3f;
-        left:0%;
+        left:-1.1vw;
         top:0%;
       }
 
@@ -4995,16 +5003,17 @@ h2 span::selection{
     @media(max-width:768px){
       #lang{
         position: absolute;
-        left:0%;
-        top:0%;
+        left:1.1vw;
+        top:2vw;
         width:100%;
       }
       #framework{
         position: absolute;
         top:15px;
+        font-size:1vw;
         margin-bottom:35px;
         margin-top:30px;
-        left:0%;
+        left:1.1vw;
         width:100%;
   
       }
@@ -5032,11 +5041,92 @@ h2 span::selection{
     }
 
     @media(max-width:768px){
-      #hten{
-        position: absolute;
-        left:0%;
-        top:0%;
+      .python{
+        position:absolute;
+        top:4vw;
+        left:0.5vw;
       }
+
+      .c{
+        position:absolute;
+        top:4vw;
+        left:4.5vw
+      }
+
+      .cpp{
+        position:absolute;
+        top:4vw;
+        left:6.5vw
+      }
+
+      .html{
+        position:absolute;
+        top:4vw;
+        left:9.5vw;
+      }
+
+      #hmm{
+        position:absolute;
+        top:4vw;
+        left:15.5vw;
+      }
+      .sql{
+        position:absolute;
+        top:4vw;
+        left:21.5vw;
+      }
+
+      .tf{
+        position:absolute;
+        top:9.5vw;
+        left:0vw;
+      }
+
+      .pytorch{
+        position:absolute;
+        top:9.5vw;
+        left:6vw;
+      }
+
+      .keras{
+        position:absolute;
+        top:9.5vw;
+        left:11vw;
+      }
+      .numpy{
+        position:absolute;
+        top:9.5vw;
+        left:15vw;
+      }
+
+      #matplotlib{
+        position:absolute;
+        top:9.5vw;
+        left:20vw;
+      }
+      
+
+      #scikit-learn{
+        position:absolute;
+        top:11vw;
+        left:0vw;
+        width:4vw;
+        font-size:5.15px;
+      }
+      
+
+      #sfml{
+        position:absolute;
+        top:9.5vw;
+        left:25vw;
+      }
+
+      #sidebar-framework{
+        position:absolute;
+        top:0vw;
+        left:0vw;
+      }
+      
     }
 
 
