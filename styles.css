@@ -4874,9 +4874,9 @@ h2 span::selection{
 
       #sidebar{
         height:70vw;
-        width:35vw;
+        width:30vw;
         position:absolute;
-        left:50vw;
+        left:60vw;
         top:94%;
         padding:0px;
         margin:0px;
