@@ -4876,7 +4876,7 @@ h2 span::selection{
         height:70vw;
         width:40vw;
         position:absolute;
-        left:60vw;
+        left:57vw;
         top:94%;
         padding:0px;
         margin:0px;
@@ -4976,10 +4976,10 @@ h2 span::selection{
   
       #sidebar-icon-2{
         position: absolute;
-        font-size:1vw;
+        font-size:2vw;
         color:#025e3f;
-        left:-1.1vw;
-        top:50px;
+        left:-2.3vw;
+        top:2px;
       }
     }
 
@@ -4994,7 +4994,7 @@ h2 span::selection{
       #lang{
         position: absolute;
         left:2vw;
-        top:40px;
+        top:45px;
         width:100%;
       }
       #framework{
@@ -5002,7 +5002,7 @@ h2 span::selection{
         top:70px;
         margin-bottom:35px;
         margin-top:30px;
-        left:1.1vw;
+        left:1.7vw;
         width:100%;
   
       }
@@ -5075,40 +5075,39 @@ h2 span::selection{
       .pytorch{
         position:absolute;
         top:125px;
-        left:6vw;
+        left:11.5vw;
       }
 
       .keras{
         position:absolute;
         top:125px;
-        left:11vw;
+        left:20vw;
       }
       .numpy{
         position:absolute;
         top:125px;
-        left:15vw;
+        left:26vw;
       }
 
       #matplotlib{
         position:absolute;
         top:125px;
-        left:20vw;
+        left:34vw;
       }
       
 
       #scikit-learn{
         position:absolute;
-        top:135px;
+        top:150px;
         left:0vw;
-        width:4vw;
-        font-size:5.15px;
+        width:60px;
       }
       
 
       #sfml{
         position:absolute;
         top:125px;
-        left:25vw;
+        left:44vw;
       }
 
       #sidebar-framework{
