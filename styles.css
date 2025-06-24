@@ -4863,7 +4863,7 @@ h2 span::selection{
       h8{
         font-weight:800;
         font-family: __IBM_Plex_Mono_357b7f, __IBM_Plex_Mono_Fallback_357b7f;
-        font-size:7px;
+        font-size:3vw;
         letter-spacing: 0.5px;
         display: block;
         margin-bottom:25px;
@@ -4896,7 +4896,7 @@ h2 span::selection{
 
     @media(max-width:768px){
       h9{
-        font-size:1.5vw;
+        font-size:2.5vw;
         font-weight:800;
         display: block;
         margin:0px 0px 0px 0px;
@@ -4919,7 +4919,7 @@ h2 span::selection{
       h10{
         border-radius:7px;
         background-color: #d5b88d;
-        font-size:1vw;
+        font-size:2vw;
         font-weight: 100;
         margin-left:0px;
         margin-bottom:0px;
@@ -4966,9 +4966,9 @@ h2 span::selection{
     @media(max-width:768px){
       #sidebar-icon-1{
         position: absolute;
-        font-size:1vw;
-        left:-1vw;
-        top:0vw;
+        font-size:2vw;
+        left:-2vw;
+        top:0.5vw;
         color:#04724d;
   
       }
@@ -4979,7 +4979,7 @@ h2 span::selection{
         font-size:1vw;
         color:#025e3f;
         left:-1.1vw;
-        top:0%;
+        top:50px;
       }
     }
 
@@ -4993,13 +4993,13 @@ h2 span::selection{
     @media(max-width:768px){
       #lang{
         position: absolute;
-        left:1.1vw;
-        top:12px;
+        left:2vw;
+        top:40px;
         width:100%;
       }
       #framework{
         position: absolute;
-        top:10px;
+        top:70px;
         margin-bottom:35px;
         margin-top:30px;
         left:1.1vw;
@@ -5032,73 +5032,73 @@ h2 span::selection{
     @media(max-width:768px){
       .python{
         position:absolute;
-        top:25px;
+        top:65px;
         left:0.5vw;
       }
 
       .c{
         position:absolute;
-        top:25px;
-        left:4.5vw
+        top:65px;
+        left:8vw
       }
 
       .cpp{
         position:absolute;
-        top:25px;
-        left:6.5vw
+        top:65px;
+        left:11vw
       }
 
       .html{
         position:absolute;
-        top:25px;
-        left:9.5vw;
+        top:65px;
+        left:16vw;
       }
 
       #hmm{
         position:absolute;
-        top:25px;
-        left:15.5vw;
+        top:65px;
+        left:27vw;
       }
 
       .sql{
         position:absolute;
-        top:25px;
-        left:21.5vw;
+        top:65px;
+        left:37vw;
       }
 
       .tf{
         position:absolute;
-        top:55px;
+        top:125px;
         left:0vw;
       }
 
       .pytorch{
         position:absolute;
-        top:55px;
+        top:125px;
         left:6vw;
       }
 
       .keras{
         position:absolute;
-        top:55px;
+        top:125px;
         left:11vw;
       }
       .numpy{
         position:absolute;
-        top:50px;
+        top:125px;
         left:15vw;
       }
 
       #matplotlib{
         position:absolute;
-        top:55px;
+        top:125px;
         left:20vw;
       }
       
 
       #scikit-learn{
         position:absolute;
-        top:65px;
+        top:135px;
         left:0vw;
         width:4vw;
         font-size:5.15px;
@@ -5107,7 +5107,7 @@ h2 span::selection{
 
       #sfml{
         position:absolute;
-        top:55px;
+        top:125px;
         left:25vw;
       }
 
