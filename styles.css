@@ -197,7 +197,7 @@ p{
 
 @media (max-width:768px){
   p{
-    height:25vw;
+    height:30vw;
     width:230px;
     position: relative;
     top:75px;
@@ -3291,7 +3291,7 @@ h2 span::selection{
     }
     #firstinabout{
       width:35vw;
-      height:70vw;
+      height:180px;
     }
 
 
@@ -5000,7 +5000,7 @@ h2 span::selection{
       }
       #framework{
         position: absolute;
-        top:70px;
+        top:73px;
         margin-bottom:35px;
         margin-top:30px;
         left:1.7vw;
