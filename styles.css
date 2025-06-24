@@ -3177,10 +3177,9 @@ h2 span::selection{
   
       #about h1{
           position:absolute;
-          font-size:15px;
-          top:-18%;
-          max-width: 50%;
-          left:10%;
+          font-size:3vw;
+          top:-8vw;
+          left:8vw;
           white-space: nowrap; /* Keeps the content on a single line */
       }
 
@@ -3229,7 +3228,7 @@ h2 span::selection{
     @media(max-width:768px){
       #firstinabout{
         position: absolute;
-        top:20px;
+        top:10%;
         left:9%;
       }
   
@@ -3409,13 +3408,6 @@ h2 span::selection{
 
 
   @media(max-width:768px){
-    #tobe{
-      position:relative;
-      top:-20%;
-    }
-  
-  
-  
     #tobe::before {
       content: '';
       position: relative;
