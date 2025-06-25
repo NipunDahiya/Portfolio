@@ -3178,8 +3178,8 @@ h2 span::selection{
       #about h1{
           position:absolute;
           font-size:3vw;
-          top:-8vw;
-          left:8vw;
+          top:-37px;
+          left:40px;
           white-space: nowrap; /* Keeps the content on a single line */
       }
 
@@ -3228,8 +3228,8 @@ h2 span::selection{
     @media(max-width:768px){
       #firstinabout{
         position: absolute;
-        top:10%;
-        left:9%;
+        top:15px;
+        left:25px;
       }
   
     }
@@ -3343,8 +3343,8 @@ h2 span::selection{
     #secondpinabout{
       position:relative;
       top:250px;
-      width:75vw;
-      height:35vw;
+      width:90vw;
+      height:40vw;
       left:20px;
     }
   
@@ -3732,11 +3732,11 @@ h2 span::selection{
 
       #about hr {
         border: 0.5px solid gray; /* Sets the line's color and thickness */
-        width: 49%; /* Sets the line's width */
+        width: 55vw; /* Sets the line's width */
         margin: 10px auto; /* Centers the line and adds vertical spacing */
         position: absolute;
-        top:1%;
-        left:35%;
+        top:2px;
+        left:100px;
       }
     }
 
